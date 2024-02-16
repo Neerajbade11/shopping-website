@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4ab14b15c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <nav>    
+                    <ul class="left-nav">
+                        <li>Aeezah.</li>
+                    </ul>
+                    <div class="middile-nav-container">
+                        <ul class="middle-nav">
+                            <li>NEW ARRIVALS</li>
+                            <li>SHOP</li>
+                            <li>BEAUTY</li>
+                            <li>SALE</li>
+                            <li>JOURNAL</li>
+                        </ul>
+                    </div>
+                    <div class="right-nav-container">
+                        <ul class="right-nav">
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                            
+                        </ul>
+                        <ul class="right-nav">
+                            <span>0</span>
+                        </ul>
+                        <ul >
+                            <li><i class="fa-regular fa-user"></i></li>
+                        </ul>
+                        
+                    </div>
+                
+            </nav>
+            <div class="input-section">
+                <ul class="input">
+                    <li>
+                        <input type="text" placeholder="Search videos, people and more" id="searchInput"/>
+                        
+                    </li>
+                </ul>
+                <div >
+                        <ul class="insta-content">
+                            <li>INSTAGRAM</li>
+                        
+                            <li class="horizonthal-line">
+                                 <hr/>
+                             </li>
+                            
+                            <li>
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                        </ul>
+                    
+                </div>
+            </div>
+            <section>
+                <div class="fabric-section">
+                    <div class="left-fabric-section">
+                        <span><hr/></span>
+                        <h1>FABRIC THAT</h1>
+                        <span><hr/></span>
+                        <h1>SPEAKS</h1>
+                        <span><hr/></span>
+                        <div class="btn-section">
+                            <button class="black-btn">VIEW ALL</button>
+                            <button class="white-btn">Watch now</button>
+                        </div>
+                    </div>
+                    <div class="new-edition">
+                        <img  src="assests/My project (11) 1.png" alt="new additon img" />
+                        <h1>NEW EDITION</h1>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="double-img-section">
+                        <div>
+                            <h1>Shirts</h1>
+                            <img src="assests/Group 226.png" alt="shirts img"/>
+                        </div>
+                        <div>
+                            <h1>Hoodies</h1>
+                            <img src="assests/Group 227.png" alt="Hoodies img"/>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <h1>
+                            <span>"</span>Fashion is not about clothes, It is about a look.<span>"</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            
+            const searchInput = document.getElementById('searchInput');
+        
+            searchInput.addEventListener('focus', () => {
+                searchInput.style.borderColor = 'blue'; 
+            });
+        
+            searchInput.addEventListener('blur', () => {
+                searchInput.style.borderColor = ''; 
+            });
+        </script>
+    </body>
+</html>
